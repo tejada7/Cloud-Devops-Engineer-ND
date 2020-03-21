@@ -3,6 +3,7 @@ The goal of this project is to automate the below diagram by using AWS CloudForm
 ![](images/project-architecture-diagram.png "Architecture diagram")
 ### Pre-requisites
 - Have an AWS account (non Educate because it lacks some advanced functionnalities)
+- Create a EC2 IAM role of policy `AmazonS3ReadOnlyAccess` called `UdacityS3ReadOnlyEC2`
 ### Steps
 1. Create the [infrastructure template](./templates/infra.yml) along with its [parameters](./templates/parameters-infra.json).
 2. Likewise create the [server template](./templates/server.yml) along with its [parameters](./templates/parameters-server.json).
