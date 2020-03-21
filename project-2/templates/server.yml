@@ -26,11 +26,11 @@ Resources:
         FromPort: 80
         ToPort: 80
         CidrIp: 0.0.0.0/0
-  # This is server security group config, we will only enable SSH and 80
+  # This is server security group config, we will only enable http (port 80)
   WebServerSecGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: Allow http to our hosts and SSH from local only
+      GroupDescription: Allow http to our hosts
       VpcId:
         Fn::ImportValue:
           !Sub "${EnvironmentName}-VPCID"
@@ -38,10 +38,6 @@ Resources:
       - IpProtocol: tcp
         FromPort: 80
         ToPort: 80
-        CidrIp: 0.0.0.0/0
-      - IpProtocol: tcp
-        FromPort: 22
-        ToPort: 22
         CidrIp: 0.0.0.0/0
       SecurityGroupEgress:
       - IpProtocol: tcp
@@ -68,8 +64,6 @@ Resources:
             unzip -o udacity.zip
       # For the other images apt-get is not compatible (only with RHEL)
       ImageId: ami-0d1cd67c26f5fca19
-      # This should only be enabled if we want to connect to the server via jump box
-      # KeyName: private-server-devops-key
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t2.medium
