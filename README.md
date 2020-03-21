@@ -1,28 +1,11 @@
-## My first AWS static website
+# CLOUD DEVOPS ENGINEER NANO DEGREE PROJECTS
 
-This project is a simple HTML template to exploit AWS *S3* integration with *IAM* and *CloudFront* to deploy static website.
+This repo contains the final project for each leasson.
 
-This is the CloudFront endpoint URL to my website:
-http://udacity-wesite-ftejada.s3.amazonaws.com/index.html
+### [Project 1 - Deploy a static Website on AWS](../project-1/README.md)
 
+### [Project 2 - Deploy a high-available web app using CloudFormation](../project-2/README.md)
 
-Below are the steps I followed to achieved so:
+### [Project 3 - Jenkins pipelines on AWS](../project-3/README.md)
 
-1. Created a bucket on S3:
-
-![](img/Imagen1.png "Paso1")
-
-2. Added the resources to it:
-![](img/Imagen2.png "Paso2")
-
-3. Enabled static website hosting:
-![](img/Imagen3.png "Paso3")
-
-4. Set up IAM policies to make it accessible everywhere:
-![](img/Imagen4.png "Paso4")
-
-5. Configured CloudFront distribution:
-![](img/Imagen5.png "Paso5")
-
-6. And Voila! My website is up and running:
-![](img/Imagen6.png "Paso6")
+### [Project 4 - Operationalize a Machine Learning Miscroservice API](../project-4/README.md)
