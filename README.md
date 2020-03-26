@@ -1,5 +1,7 @@
 # Udacity Cloud Devops Engineer NanoDegree Program Projects
 
+[![BCH compliance](https://bettercodehub.com/edge/badge/tejada7/Cloud-Devops-Engineer-ND?branch=develop)](https://bettercodehub.com/)
+
 This repo contains the final project for each lesson.
 
 ### [Project 1 - Deploy a static Website on AWS](./project-1)
