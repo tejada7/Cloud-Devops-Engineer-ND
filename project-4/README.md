@@ -9,3 +9,5 @@ Before undertaking the project, the folliwing steps were followed to get the nec
 - Install the testing library pytest: pip install pytest
 - Install the interactive interpreter ipython: pip install ipython
 - Test it out by typing ipython and running some code
+
+To run a Makefile: `make xxx` where xxx is the command present in the file, e.g. install, test, all, etc.
