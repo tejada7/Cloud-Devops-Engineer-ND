@@ -1,5 +1,6 @@
 # Udacity Cloud Devops Engineer NanoDegree Program Projects
 
+[![CircleCI](https://circleci.com/gh/tejada7/Cloud-Devops-Engineer-ND.svg?style=svg)](https://circleci.com/gh/tejada7/Cloud-Devops-Engineer-ND)
 [![BCH compliance](https://bettercodehub.com/edge/badge/tejada7/Cloud-Devops-Engineer-ND?branch=develop)](https://bettercodehub.com/)
 
 This repo contains the final project for each lesson.
