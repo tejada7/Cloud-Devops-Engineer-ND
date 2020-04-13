@@ -11,3 +11,9 @@ Before undertaking the project, the folliwing steps were followed to get the nec
 - Test it out by typing ipython and running some code
 
 To run a Makefile: `make xxx` where xxx is the command present in the file, e.g. install, test, all, etc.
+
+### Exercise 3
+Test an application locally with _locust_
+`python3 app.py`
+`locust -f locustfile.py`
+Once in the Locust [GUI](http://127.0.0.1:8089), configure to listen to http://127.0.0.1:8080 and enjoy!
