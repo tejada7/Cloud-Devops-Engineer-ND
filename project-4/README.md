@@ -22,3 +22,6 @@
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+#### Make a prediction
+Assuming the application is already running on port 8000, run `./make_prediction.sh`
