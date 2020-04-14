@@ -22,6 +22,10 @@
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
-
+___
 #### Make a prediction
 Assuming the application is already running on port 8000, run `./make_prediction.sh`
+
+#### Pushing the docker image to DockerHub
+Assuming the application has already been built (through `./run_docker.sh`), then run `./upload_docker.sh`.<br/>
+My built image is available [here](https://hub.docker.com/r/tejada7/flask_app).
