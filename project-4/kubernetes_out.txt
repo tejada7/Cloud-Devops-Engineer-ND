@@ -1,0 +1,18 @@
+NAME        READY   STATUS              RESTARTS   AGE
+flask-app   0/1     ContainerCreating   0          33s
+
+NAME        READY   STATUS    RESTARTS   AGE
+flask-app   1/1     Running   0          10m
+
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+                                                                                                                                                   │
+[2020-04-16 01:33:20,512] INFO in app: JSON payload: {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}} │
+[2020-04-16 01:33:20,523] INFO in app: Inference payload DataFrame:                                                                                                               │
+   CHAS     RM    TAX  PTRATIO      B  LSTAT                                                                                                                                      │
+0     0  6.575  296.0     15.3  396.9   4.98                                                                                                                                      │
+[2020-04-16 01:33:20,532] INFO in app: Scaling Payload:    CHAS     RM    TAX  PTRATIO      B  LSTAT                                                                              │
+0     0  6.575  296.0     15.3  396.9   4.98                                                                                                                                      │
+[2020-04-16 01:33:20,535] INFO in app: Prediction output: [20.35373177134412]                                                                                                     │
+127.0.0.1 - - [16/Apr/2020 01:33:20] "POST /predict HTTP/1.1" 200 -              

@@ -29,3 +29,6 @@ Assuming the application is already running on port 8000, run `./make_prediction
 #### Pushing the docker image to DockerHub
 Assuming the application has already been built (through `./run_docker.sh`), then run `./upload_docker.sh`.<br/>
 My built image is available [here](https://hub.docker.com/r/tejada7/flask_app).
+
+#### Set up k8s locally
+Install minikube and then run `minikube start`. N.B. It might take several minutes to spin it up.

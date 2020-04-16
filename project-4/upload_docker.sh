@@ -6,13 +6,13 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath="tejada7/flask_app"
+dockerpath="tejada7/flask-app"
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login &&\
-    docker image tag flask_app $dockerpath
+    docker image tag flask-app $dockerpath
 docker 
 
 # Step 3:
