@@ -11,3 +11,5 @@ This repo contains the final project for each lesson.
 ### [Project 3 - Jenkins pipelines on AWS](./project-3/README.md)
 
 ### [Project 4 - Operationalize a Machine Learning Miscroservice API](./project-4/README.md)
+
+### [Capstone Project](./capstone/README.md)
