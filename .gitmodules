@@ -1,0 +1,3 @@
+[submodule "capstone/demo-jsf-springboot"]
+	path = capstone/demo-jsf-springboot
+	url = https://github.com/tejada7/demo-jsf-springboot.git
