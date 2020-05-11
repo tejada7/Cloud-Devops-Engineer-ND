@@ -37,9 +37,13 @@ eksctl create cluster \
 * Add Docker account
 * Add AWS creadentials with `aws configure`
 ___
+
+## Project Infrastructure
+>>![](images/img24.png)
+___
 ## Application
 
-As I am a Java Developer, I found motivation to integrate a relatively deprecated (but really nice) frontend Java framework called Primefaces along with the popular SpringBoot into a docker container to be deployed across different infrastructures. The solution consists in a flight booking application, whose code source can be found [here](https://github.com/tejada7/demo-jsf-springboot).<br/>
+As I am a Java Developer, I found motivation to integrate a really nice frontend Java framework called Primefaces along with the popular SpringBoot into a docker container to be deployed across different infrastructures. The solution consists in a flight booking application, whose code source can be found [here](https://github.com/tejada7/demo-jsf-springboot).<br/>
 >>![](images/img1.png)
 ___
 ## Scope
