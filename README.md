@@ -8,8 +8,8 @@ This repo contains the final project for each lesson.
 
 ### [Project 2 - Deploy a high-available web app using CloudFormation](./project-2)
 
-### [Project 3 - Jenkins pipelines on AWS](./project-3/README.md)
+### [Project 3 - Jenkins pipelines on AWS](./project-3)
 
-### [Project 4 - Operationalize a Machine Learning Miscroservice API](./project-4/README.md)
+### [Project 4 - Operationalize a Machine Learning Miscroservice API](./project-4)
 
-### [Capstone Project](./capstone/README.md)
+### [Capstone Project](./capstone)
