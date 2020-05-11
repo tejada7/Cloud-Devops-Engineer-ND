@@ -106,19 +106,3 @@ Once all the steps have successfully run, it's time to remove the image built in
 
 To summarize, the below image ilustrates the steps defined in the [Jenkinsfile](https://github.com/tejada7/demo-jsf-springboot/blob/master/Jenkinsfile):
 ![](images/img3.png)
-
-
-
-arn:aws:eks:us-west-2:589247310786:cluster/capstone-cluster   arn:aws:eks:us-west-2:589247310786:cluster/capstone-cluster   arn:aws:eks:us-west-2:589247310786:cluster/capstone-cluster
-
-withAWS(credentials: 'aws-key', region: 'us-east-1') {
-          echo 'Success'
-          sh 'kubectl config use-context jenkins-2@udacity-devops-capstone-b.us-east-1.eksctl.io'
-          sh 'kubectl apply -f green-controller1.json'
-          sh 'kubectl apply -f blue-green-service.json'
-        }
-stage('Set Kubectl Context to Cluster') {
-            steps{
-                sh 'kubectl config use-context arn:aws:eks:us-west-2:589247310786:cluster/capstone-cluster'
-            }
-        }
